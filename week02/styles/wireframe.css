@@ -76,7 +76,6 @@ header nav a {
 .prev svg, .next svg {
     width: 1em;
     height: 1em;
-    fill: #fff;
 }
 
 .hero article {
