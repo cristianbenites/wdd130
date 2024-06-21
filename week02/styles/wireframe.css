@@ -155,7 +155,13 @@ footer {
     border-top: 2px solid #36382E;
     background-color: #DADAD9;
     padding: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 1rem;
+    column-gap: 1rem;
+    justify-items: center;
 }
+
 
 footer h2 {
     margin-bottom: .5rem;
