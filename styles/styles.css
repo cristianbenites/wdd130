@@ -4,21 +4,42 @@
     box-sizing: border-box;
 }
 
+header, .grid, footer {
+    max-width: 840px;
+    margin: 0 auto;
+}
+
 nav {
     background-color: steelblue;
-    padding: 10px;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 nav a {
     color: white;
     display: block;
-    padding: 20px;
+    padding: 0.5rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.grid {
+    display: grid;
+    align-items: center;
 }
 
 main {
-    max-width: 840px;
+    grid-column: 2/3;
+    margin: 1rem;
 }
-
 
 h1 {
     color: steelblue;
@@ -40,15 +61,18 @@ p {
 
 aside {
     position: relative;
-    width: 20em;
-    text-align: center;
+    width: 20rem;
+    grid-column: 1/2;
+    grid-row: 1/2;
 }
 
 aside h2 {
     position: absolute;
     top: 47px;
     left: 150px;
-    color: #000;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 0.5rem;
 }
 
 aside img {
@@ -73,4 +97,19 @@ footer {
     border: 1px solid rgba(0, 0, 0, 0.2);
     background-color: #02111B;
     color: #FCFCFC;
+}
+
+.box li {
+    padding: 0.2rem;
+    margin-left: 1rem;
+}
+
+.box a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.box a:hover {
+    color: #fff;
+    font-weight: bold;
 }
