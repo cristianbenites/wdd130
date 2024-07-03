@@ -33,7 +33,7 @@ nav a:hover {
 
 .grid {
     display: grid;
-    align-items: center;
+    align-items: start;
 }
 
 main {
@@ -43,6 +43,8 @@ main {
 
 h1 {
     color: steelblue;
+    border-bottom: 1px solid steelblue;
+    margin-bottom: 1rem;
 }
 
 main img {
