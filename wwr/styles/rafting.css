@@ -51,8 +51,6 @@ header {
     grid-template-columns: 1fr 2fr;
     justify-items: center;
     align-items: center;
-
-    /* background-color: var(--primary-color); */
     margin-bottom: 0.5rem;
     padding: 1rem 0;
 }
