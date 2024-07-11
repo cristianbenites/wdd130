@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root {
+    --primary-color: #1e007b;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Noto Serif', serif;
+    font-size: 1.2em;
+    color: #333;
+    background-color: #fff;
+}
+
+header {
+    margin: 0 auto;
+    padding: 1rem;
+    width: 650px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+header input[type="checkbox"] {
+    cursor: text;
+}
+
+h1 {
+    font-size: 1.5em;
+    color: var(--primary-color);
+    text-align: center;
+}
+
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 2rem 1.5rem;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 0.5rem;
+    background-color: #ededed;
+    display: grid;
+    gap: 1rem;
+}
+
+label, input, button, select, textarea {
+    font-family: 'Open Sans', sans-serif;
+}
+
+select, input[type="checkbox"], button {
+    cursor: pointer;
+}
+
+select {
+    background-color: #fff;
+    border: 1px solid #808080;
+}
+
+label {
+    margin-bottom: 0.3rem;
+}
+
+label span {
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1em;
+}
+
+code {
+    display: block;
+    margin: 0.4rem auto;
+    padding: 1rem;
+    background-color: #363636;
+    color: #fff;
+    max-width: 500px;
+}
+
+input[type="checkbox"] {
+    margin-left: 0.3rem;
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}
+
+button {
+    background-color: var(--primary-color);
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    font-size: 1.2rem;
+    padding: 1rem;
+}
+
+.form-item {
+    display: grid;
+}

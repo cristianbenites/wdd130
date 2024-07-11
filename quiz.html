@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>HTML and CSS Quiz</title>
+        <link href="styles/quiz.css" rel="stylesheet">
+        <meta name="author" content="Cristian Benites">
+        <meta name="description" content="Quiz course page about HTML and CSS">
+    </head>
+    <body>
+        <header>
+            <input type="checkbox" value="" checked disabled>
+            <h1>HTML and CSS Quiz</h1>
+        </header>
+        <main>
+            <form>
+                <div class="form-item">
+                    <label for="q1">
+                        <span>1.</span>
+                        What does the acronym CSS stand for?
+                    </label>
+                    <input type="text" id="q1" name="q1">
+                </div>
+                <div class="form-item">
+                    <label for="q2">
+                        <span>2.</span>
+                        How are id and class attributes selected in CSS?
+                    </label>
+                    <textarea
+                        name="q2"
+                        id="q2"
+                        rows="4"
+                    ></textarea>
+                </div>
+                <div class="form-item">
+                    <label for="q3">
+                        <span>3.</span>
+                        Which of the following is a valid CSS comment?
+                    </label>
+                    <select name="q3" id="q3">
+                        <option value="" selected disabled>Choose one ...</option>
+                        <option value="opt-1">/* this is a comment */</option>
+                        <option value="opt-2">// this is a comment</option>
+                        <option value="opt-3"># this is a comment </option>
+                        <option value="opt-4">*/ this is a comment /*</option>
+                    </select>
+                </div>
+                <div class="form-item">
+                    <label for="q4">
+                        <span>4.</span>
+                        What is the bottom margin given this declaration?
+                        <code>margin: 10px 5px 15px;</code>
+                    </label>
+                    <input type="number" id="q4" name="q4">
+                </div>
+                <button type="submit">Submit Quiz</button>
+            </form>
+        </main>
+    </body>
+</html>
